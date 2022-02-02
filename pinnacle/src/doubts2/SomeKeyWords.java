@@ -10,10 +10,11 @@ public class SomeKeyWords {
 	public static void main(String[] args) {
 		//System.out.println(this); //- cannot use this in a static context
 		
-		new SomeKeyWords().met();
+		new SomeKeyWords().met("this is old value.....");
 	}
 	
-	public void met() {
+	public void met(String value) {
+		this.value=value;//using this keyword on variable will access the instance variable
 		//System.out.println(this);// this keyword represents current  object - SomeKeyWords
 		Test t=new Test();
 		System.out.println("The value of value is...:"+value);
