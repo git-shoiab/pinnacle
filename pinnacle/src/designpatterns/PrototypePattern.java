@@ -1,5 +1,5 @@
 package designpatterns;
-
+//VIDEO - https://fluvid.com/videos/detail/n8QdniK23dtX2w74d#.YgOsv2dV8PU.link
 public class PrototypePattern {
 	//CLONE - PROPERTIES ARE UNIQUE BUT RESOURCES ARE SHARED
 	public static void main(String[] args) {
