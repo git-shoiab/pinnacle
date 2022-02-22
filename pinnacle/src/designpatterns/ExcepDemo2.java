@@ -5,8 +5,7 @@ public class ExcepDemo2 {
 		ExcepDemo2 obj=new ExcepDemo2();
 		try {
 			obj.met2(10);
-		}catch(Exception e) {
-			
+		}catch(Exception e) {			
 		}
 	}
 	void met(){

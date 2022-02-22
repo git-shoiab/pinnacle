@@ -18,6 +18,7 @@ public class VisitorPattern {
 	}
 }
 
+
 class Dog{
 	public void play(String item)throws DogExceptions {
 		if(item.equals("stick")) {
