@@ -19,6 +19,7 @@ public class CommandPattern {
 		genie.executeCommand(1);
 	}
 }
+
 class Genie{
 	Command c[]=new Command[5];
 	public Genie() {
