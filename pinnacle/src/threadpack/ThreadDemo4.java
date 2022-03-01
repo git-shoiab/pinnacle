@@ -12,8 +12,10 @@ public class ThreadDemo4 {
 			@Override
 			public void run() {
 				Thread.currentThread().setName("rahim");
-				central.bookTicket(1000);
-				central.giveChange();
+				synchronized(central) {
+					central.bookTicket(1000);
+					central.giveChange();
+				}
 			}
 		});
 		es.execute(new Runnable() {
@@ -21,8 +23,10 @@ public class ThreadDemo4 {
 			@Override
 			public void run() {
 				Thread.currentThread().setName("ram");
-				central.bookTicket(500);
-				central.giveChange();
+				synchronized(central) {
+					central.bookTicket(500);
+					central.giveChange();
+				}
 			}
 		});
 		
@@ -39,7 +43,7 @@ class ReservationCounter{
 		this.amt=amt;
 		System.out.println(name+" is booking the ticket...:"+amt);
 		System.out.println("..................................");
-		//try {Thread.sleep(2000);}catch(Exception e) {}
+		try {Thread.sleep(2000);}catch(Exception e) {}
 	}
 	
 	public void giveChange() {
