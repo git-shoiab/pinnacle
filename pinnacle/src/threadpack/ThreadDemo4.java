@@ -28,13 +28,10 @@ public class ThreadDemo4 {
 					central.giveChange();
 				}
 			}
-		});
-		
+		});		
 		es.shutdown();
 	}
 }
-
-
 class ReservationCounter{
 	int amt;
 	public void bookTicket(int amt) {
