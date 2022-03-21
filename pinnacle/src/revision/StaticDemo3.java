@@ -1,5 +1,5 @@
 package revision;
-
+//https://fluvid.com/videos/detail/ykZL6ckQqvsY9GyGM#.Yjhll1X7HpA.link
 public class StaticDemo3 {
 	public static void main(String[] args) {
 		TrainingRoom1 gandhi=new TrainingRoom1();
