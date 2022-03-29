@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Vector;
+//https://fluvid.com/videos/detail/q_2d8Swp5nHg5pE6_#.YkLmiPriUkY.link
 //https://fluvid.com/videos/detail/oKxdEh6Lg3tDjpL6x#.YkLliWSddyE.link
 public class ColDemo1 {
 	public static void main(String[] args) {
